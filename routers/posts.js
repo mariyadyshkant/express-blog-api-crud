@@ -2,8 +2,6 @@ const express = require('express');
 const router = express.Router();
 const PORT = process.env.PORT;
 const posts = require('../data/posts.js');
-const { appendFile } = require('fs');
-// const { log } = require('node:console');
 
 router.use(express.json());
 
